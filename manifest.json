@@ -1,0 +1,20 @@
+{
+  "id": "livecaidoreload-plugin",
+  "name": "LiveCaidoReload",
+  "version": "1.0.0",
+  "description": "Support for livecaidoreload - hotreloading Caido plugins",
+  "author": {
+    "name": "bebiks",
+    "email": "bebiks@cvssadvisor.com",
+    "url": "https://github.com/bebiksior/LiveCaidoReloadPlugin"
+  },
+  "plugins": [
+    {
+      "kind": "frontend",
+      "id": "livecaidoreload-plugin",
+      "name": "LiveCaidoReload",
+      "entrypoint": "frontend/script.js",
+      "style": "frontend/style.css"
+    }
+  ]
+}
